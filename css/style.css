@@ -177,6 +177,11 @@ section.services {
     background: var(--light);  
 }
 
+section.services h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
 section.services .card-wrapper .card {
     background: var(--pure);
     padding: 3rem 2rem;
@@ -220,4 +225,147 @@ section.services .card-wrapper .card:hover h2, section.services .card-wrapper .c
     color: var(--pure);
 }
 
+section.freelancer {
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png ) ;
+    color: var(--light);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+    padding-bottom: 12rem;
+    
+}
 
+section.freelancer h1 {
+    font-size: 2rem;
+    margin-bottom: .8rem;
+}
+
+section.freelancer p {
+    font-size: 1rem;
+    font-family: 'lato',sans-serif;
+    padding-bottom: 2rem;
+}
+
+section.client {
+    text-align: center;
+    padding: 7rem 25rem;
+}
+
+section.client h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+section.client h1 span {
+    color: var(--primary);
+}
+
+section.client p {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    font-family: 'lato',sans-serif;
+    line-height: 1.6;
+    color: var(--ternary);
+}
+
+section.client .slider .slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;   
+}
+
+section.client .slider .slide img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+section.client .slider .slide p {
+    color: var(--ternary);
+    font-family: 'lato',sans-serif;
+}
+
+section.client .slide {
+    margin-bottom: 2rem;
+    background-color: var(--light);
+    padding: 4rem;
+    border-radius: 2rem;
+    
+    border: 1px solid var(--primary);
+}
+
+section.client .slide span {
+    font-weight: 600;
+}
+
+section.client .slider-dots .dots {
+        list-style-type: none;
+        display: flex!important;
+        justify-content: center;
+}
+
+section.client .slider-dots {
+    margin-top: 3rem;
+}
+
+section.client .slider-dots button {
+    font-size: 0;
+    width: 8px;
+    height: 5px;
+    margin-right: 0.3rem;  
+    border: none;
+    outline: none; 
+    background: var(--ternary); 
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+section.client .dots li.slick-active button {
+    background: var(--primary);
+    width: 20px;
+}
+
+section.work {
+    padding: 2rem 20rem;
+}
+
+section.work .heading h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+section.work .heading p {
+    text-align: center;
+    margin-bottom: 5rem;
+    line-height: 1.6;
+    color: var(--ternary);
+}
+
+section.work .wrapper img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+section.work .wrapper {
+
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+   
+
+}
+
+section.work .wrapper .card {
+    box-shadow: 7px 7px 7px rgba(143, 143, 143, 0.238);
+    border-radius: 2rem;
+    
+
+}
+    
