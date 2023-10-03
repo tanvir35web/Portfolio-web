@@ -290,8 +290,7 @@ section.client .slide {
     margin-bottom: 2rem;
     background-color: var(--light);
     padding: 4rem;
-    border-radius: 2rem;
-    
+    border-radius: 2rem;   
     border: 1px solid var(--primary);
 }
 
@@ -351,20 +350,18 @@ section.work .wrapper img {
     object-fit: cover;
     border-radius: 2rem;
 }
+
 section.work .wrapper {
 
     position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 3rem;
-    grid-row-gap: 4rem;
-   
-
+    grid-row-gap: 4rem; 
 }
 
 section.work .wrapper .card {
     box-shadow: 7px 7px 7px rgba(143, 143, 143, 0.238);
     border-radius: 2rem;
-
 }
     
